@@ -20,11 +20,11 @@ This is a multi-classs, single-image classification challenge that was posted in
 * GTSRB_Final_Test_GT.zip
 3. Unzip the files into a folder called "GTSRB" and the folder content should look like this:
 
-![](/README_images/Data%20folder%20Image.JPG)
+![](/ReadME_images/Data%20folder%20Image.JPG)
 
 4. Then upload the folder to the Colab Notebook folder of your drive, which looks like:
 
-![](/README_images/Data%20folder%20Image_Drive.JPG)
+![](/ReadME_images/Data%20folder%20Image_Drive.JPG)
 
 5. Open "GTSRB_Dataloader.ipynb" in Google Colab and modify the directory based on your drive directory following the TODOs.
 6. Run "GTSRB_Dataloader.ipynb" and save the dataloader to your desired directory.
@@ -61,19 +61,19 @@ My appraoch got an test accuracy of around 95.41%.
 
 The training loss curve w.r.t epochs looks like:
 
-![](/README_images/Training_loss.png)
+![](/ReadME_images/Training_loss.png)
 
 The validation loss curve w.r.t epochs looks like:
 
-![](/README_images/Validation_loss.png)
+![](/ReadME_images/Validation_loss.png)
 
 The training accuracy curve w.r.t epochs looks like:
 
-![](/README_images/Training_acc.png)
+![](/ReadME_images/Training_acc.png)
 
 The validation accuracy curve w.r.t. epochs looks like:
 
-![](/README_images/Validation_acc.png)
+![](/ReadME_images/Validation_acc.png)
 
 ## Future perspectives
 There are other things that can be modified or implemented by yourself. Here the batch size I used is 1 due to the GPU limitations, which can be made larger to speed up the training time. Also, some other image transformations can be added to achieve data augmentations such as vertical and horizontal flips. You can find more information from this link: https://pytorch.org/docs/stable/torchvision/transforms.html
